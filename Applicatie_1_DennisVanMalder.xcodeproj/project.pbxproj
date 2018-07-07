@@ -14,6 +14,12 @@
 		3F4AE75C20ECB0C2002B42FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F4AE75A20ECB0C2002B42FD /* LaunchScreen.storyboard */; };
 		3F4AE76720ECB0C2002B42FD /* Applicatie_1_DennisVanMalderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4AE76620ECB0C2002B42FD /* Applicatie_1_DennisVanMalderTests.swift */; };
 		3F4AE77220ECB0C2002B42FD /* Applicatie_1_DennisVanMalderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4AE77120ECB0C2002B42FD /* Applicatie_1_DennisVanMalderUITests.swift */; };
+		3F4AE78020ECC0A9002B42FD /* persoonSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4AE77F20ECC0A9002B42FD /* persoonSingleton.swift */; };
+		3F4AE78220ECC105002B42FD /* persoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4AE78120ECC105002B42FD /* persoon.swift */; };
+		3F4AE78420ED00AD002B42FD /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4AE78320ED00AD002B42FD /* TableViewController.swift */; };
+		3F4AE78620ED0473002B42FD /* persoonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4AE78520ED0473002B42FD /* persoonViewController.swift */; };
+		3F4AE78A20ED48CA002B42FD /* annotations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4AE78920ED48CA002B42FD /* annotations.swift */; };
+		3F4AE78C20ED499A002B42FD /* mapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4AE78B20ED499A002B42FD /* mapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		3F4AE76D20ECB0C2002B42FD /* Applicatie_1_DennisVanMalderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Applicatie_1_DennisVanMalderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F4AE77120ECB0C2002B42FD /* Applicatie_1_DennisVanMalderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Applicatie_1_DennisVanMalderUITests.swift; sourceTree = "<group>"; };
 		3F4AE77320ECB0C2002B42FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F4AE77F20ECC0A9002B42FD /* persoonSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = persoonSingleton.swift; sourceTree = "<group>"; };
+		3F4AE78120ECC105002B42FD /* persoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = persoon.swift; sourceTree = "<group>"; };
+		3F4AE78320ED00AD002B42FD /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		3F4AE78520ED0473002B42FD /* persoonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = persoonViewController.swift; sourceTree = "<group>"; };
+		3F4AE78920ED48CA002B42FD /* annotations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = annotations.swift; sourceTree = "<group>"; };
+		3F4AE78B20ED499A002B42FD /* mapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +115,12 @@
 				3F4AE75820ECB0C2002B42FD /* Assets.xcassets */,
 				3F4AE75A20ECB0C2002B42FD /* LaunchScreen.storyboard */,
 				3F4AE75D20ECB0C2002B42FD /* Info.plist */,
+				3F4AE77F20ECC0A9002B42FD /* persoonSingleton.swift */,
+				3F4AE78120ECC105002B42FD /* persoon.swift */,
+				3F4AE78320ED00AD002B42FD /* TableViewController.swift */,
+				3F4AE78520ED0473002B42FD /* persoonViewController.swift */,
+				3F4AE78920ED48CA002B42FD /* annotations.swift */,
+				3F4AE78B20ED499A002B42FD /* mapViewController.swift */,
 			);
 			path = Applicatie_1_DennisVanMalder;
 			sourceTree = "<group>";
@@ -261,6 +279,12 @@
 			files = (
 				3F4AE75420ECB0C2002B42FD /* ViewController.swift in Sources */,
 				3F4AE75220ECB0C2002B42FD /* AppDelegate.swift in Sources */,
+				3F4AE78A20ED48CA002B42FD /* annotations.swift in Sources */,
+				3F4AE78220ECC105002B42FD /* persoon.swift in Sources */,
+				3F4AE78620ED0473002B42FD /* persoonViewController.swift in Sources */,
+				3F4AE78420ED00AD002B42FD /* TableViewController.swift in Sources */,
+				3F4AE78020ECC0A9002B42FD /* persoonSingleton.swift in Sources */,
+				3F4AE78C20ED499A002B42FD /* mapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
