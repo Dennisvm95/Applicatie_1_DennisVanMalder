@@ -53,7 +53,7 @@ class persoonViewController: UIViewController, MKMapViewDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        //het opvullen van de labels/images/etc met informatie, verkregen van de vorige view via segue
         self.achternaaam.text = p.naam
         self.voornaam.text = p.voornaam
         self.foto.image = UIImage(named: p.foto)
@@ -78,7 +78,7 @@ class persoonViewController: UIViewController, MKMapViewDelegate {
         map.addAnnotation(annotation)
         
         
-        
+
         
 
         // Do any additional setup after loading the view.

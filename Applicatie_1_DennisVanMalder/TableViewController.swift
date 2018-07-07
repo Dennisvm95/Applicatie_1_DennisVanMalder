@@ -39,7 +39,7 @@ class TableViewController: UITableViewController {
         return personen.count
     }
 
-    
+    //gaat de cell, myCell opvullen met de data die we meegeven, naam en foto in dit geval
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "myCell", for: indexPath)
 

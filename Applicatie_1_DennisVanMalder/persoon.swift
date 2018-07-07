@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+//persoon klasse, bevat de structuur van het object persoon, bevat geen initialisering van personen zelf
 class persoon{
         var voornaam: String
         var naam: String
